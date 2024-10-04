@@ -58,7 +58,7 @@ export default function ContentInvitation() {
           <p className={`text-2xl lg:text-4xl mt-10 ${pnyonScript.className}`}>
             Akad Nikah
           </p>
-          <p className="text-sm lg:text-lg">Sabtu, 14 Oktober 2024</p>
+          <p className="text-sm lg:text-lg">Senin, 14 Oktober 2024</p>
           <p className="text-xs lg:text-base">Kediaman Mempelai Putri</p>
         </motion.div>
 
@@ -73,9 +73,9 @@ export default function ContentInvitation() {
             Resepsi Pernikahan
           </p>
 
-          <p className="text-sm lg:text-xl">Sabtu, 19 Oktober 2024</p>
-          <p className="text-xs lg:text-base ">Pukul : 10.00 - 13.00 WIB</p>
-          <p className="text-xs lg:text-base">Graha Taman Candhra Wilwatikta</p>
+          <p className="text-sm lg:text-xl">Selasa, 15 Oktober 2024</p>
+          <p className="text-xs lg:text-base ">Pukul : Bebas</p>
+          <p className="text-xs lg:text-base">Kediaman Mempelai Putri</p>
         </motion.div>
 
         {/* Animate fade in for the quotes */}

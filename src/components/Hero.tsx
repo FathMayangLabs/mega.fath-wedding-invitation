@@ -48,7 +48,7 @@ export default function Hero() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }} // Delayed animation for the date
           >
-            <span>19</span>
+            <span>15</span>
             <span>• 10 •</span>
             <span className="hidden lg:block">2024</span>
             <span className="lg:hidden">24</span>

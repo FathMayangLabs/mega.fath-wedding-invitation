@@ -34,7 +34,7 @@ function Nav() {
         transition={{ duration: 1, delay: 0.3 }} // Add a slight delay
       >
         <span className={`text-2xl lg:text-3xl ${bodoniModa_Bold.className}`}>
-          ZULFA & MEGAWATI
+          MEGAWATI & FATH ZULFA ALI
         </span>
       </motion.div>
 

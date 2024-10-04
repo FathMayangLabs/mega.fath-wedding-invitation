@@ -14,7 +14,7 @@ const pnyonScript = Pinyon_Script({
 });
 
 const googleCalendar =
-  "https://www.google.com/calendar/render?action=TEMPLATE&text=Resepsi+Pernikahan+Fath+%26+Mega&dates=20241019T030000Z/20241019T060000Z&details=Kami+mengundang+saudara/i+untuk+bergabung+dalam+perayaan+pernikahan+kami%2C+Resepsi+Pernikahan+Fath+%26+Mega.+Kami+sangat+menantikan+untuk+berbagi+hari+istimewa+ini+bersama+Anda!&location=Taman+Candra+Wilwatikta&trp=false&sprop=&sprop=name:";
+  "https://www.google.com/calendar/render?action=TEMPLATE&text=Resepsi+Pernikahan+Fath+%26+Mega&dates=20241015T020000Z/20241015T130000Z&details=Kami+mengundang+saudara/i+untuk+bergabung+dalam+perayaan+pernikahan+kami%2C+Resepsi+Pernikahan+Fath+%26+Mega.+Kami+sangat+menantikan+untuk+berbagi+hari+istimewa+ini+bersama+Anda";
 
 export default function Countdown() {
   const [mounted, setMounted] = useState(false);
@@ -40,7 +40,7 @@ export default function Countdown() {
         Countdown
       </h1>
       <FlipClockCountdown
-        to={new Date("2024-10-19T03:00:00Z").getTime()}
+        to={new Date("2024-10-15T03:00:00Z").getTime()}
         className="flip-clock"
       />
       <motion.div
